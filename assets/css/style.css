@@ -233,11 +233,12 @@ input[type=submit] {
     box-sizing: border-box;
     color: #000;
   }
-  .main-section[
+  .main-section{
+    padding: 50px;
+  }
     
-  ]
   #masthead {
-    width: 898px;
+    width: auto;
     box-sizing: border-box;
   }
 
@@ -255,7 +256,8 @@ input[type=submit] {
     color: red
   }  
   footer {
-    width: 91%;
+    width: 92%;
+    background-color: darkcyan;
   }
 }
 
@@ -293,7 +295,7 @@ input[type=submit] {
   }  
   footer{
     width: 89%;
-
+    background-color: green;
   }
 }
 
@@ -337,6 +339,6 @@ input[type=submit] {
 
   footer {
     width: 87.5%;
-
+    background-color: navy;
   }
 }
